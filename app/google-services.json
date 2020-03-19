@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469154935976",
+    "firebase_url": "https://tspallet-ab374.firebaseio.com",
+    "project_id": "tspallet-ab374",
+    "storage_bucket": "tspallet-ab374.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469154935976:android:8dc5713af89bbf21d27e9d",
+        "android_client_info": {
+          "package_name": "com.example.tspallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469154935976-dko2afs0jbapectqq9pptiqin0sltnr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tspallet",
+            "certificate_hash": "1fd49f6336726df1b2fb90cc13b9c27f20327f50"
+          }
+        },
+        {
+          "client_id": "469154935976-7erv3hi002if0e1n4q7m6p9s1oub4aq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCobwjCeFnBcTdBR0NtxdkfDBDAn7BJL2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469154935976-7erv3hi002if0e1n4q7m6p9s1oub4aq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

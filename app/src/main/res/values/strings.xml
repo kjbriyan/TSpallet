@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Maint.
+        Assistance</string>
+    <string name="fault">Fault</string>
+    <string name="detail_fault">detail fault</string>
+    <string name="heroes_name">Kode Fault</string>
+    <string name="detail">Detail</string>
+    <string name="textmaintenance_assistance">Maintenance Assistance merupakan sebuah aplikasi sederhana sebagai pembantu pekerja dalam melakukan pekerjaan baik itu melaksanakan troubleshooting maupun inspeksi rutin</string>
+</resources>

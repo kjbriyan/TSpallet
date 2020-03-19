@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".MainPackage.TroubleshootingPackage.Troubleshootingpacker">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/grid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Data Motor"
+                android:textColor="@android:color/black"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="kontaktor rusak dimana koil tidak mau bekerja ketika dialiri listrik, ini bisa di sebabkan karena masa pakai yang telah mencapai batas ataupun dikarenakan hal lain"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="sambungan kabel terputus karena pemasangan yang kurang kencang"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="jarak pada proximitty dengan trigger terlalu jauh, ini terjadi karena pemasanga yang kurang kencang serta vibrasi yang terjadi selama proses operasional"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="Sambungan kabel terputus ataupun lepas, ini terjadi mungkin karena terinjak ataupun terpasang dengan kurang kencang"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="sensor rusak, ganti yang baru"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="io rusak, ganti yang baru (atau ganti address jika mau)"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="kontaktor rusak, ganti kontaktor lain, apakah kembali bekerja?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes11click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no11click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="sambungkan kabel, apakah bekerja?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes10click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no10click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="cek kabel penghubung dari io ke kontaktor, apakah ada yang putus atau lepas?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes3click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no9click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="cek kontaktor, apakah kontaktor bekerja ketika io bekerja?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes8click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no8click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="coba pindahkan input ke alamat lain, apakah bekerja?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes7click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no7click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="cek input module sesuai kode input, apakah bekerja ketika sensor bekerja atau tidak? (lihat lampu indikator pada Input modul di panel)"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes6click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no6click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="adjust jarak sampai sensor bisa mendeteksi, apakah kembali normal?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes5click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no5click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="cek jarak sensor dengan trigger, apakah sesuai dan terdeteksi? (8mm untuk prox besar, 3mm untuk prox kecil)"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes4click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no4click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="Sambung dan pasangkan kabel, apakah kembali normal?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes3click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no3click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="Cek kabel penghubungnya, apakah ada yang lepas atau ada yang putus?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes2click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no2click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView android:id="@+id/f258step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/colorTransWhite"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_xmedium"
+                    android:layout_marginRight="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="Cek sensor yang terpasang di lokal, apakah semua bekerja atau tidak?"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/yes1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:onClick="yes1click"
+                            android:text="@string/YES"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/no1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+
+                            android:onClick="no1click"
+                            android:text="@string/NO"
+                            android:textSize="15sp"
+                            android:background="@drawable/btn_rounded_primary"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
